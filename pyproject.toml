@@ -34,7 +34,7 @@ Homepage = "https://github.com/koleror/django-admin-views"
 packages = ["admin_views"]
 
 [tool.setuptools.package-data]
-"*" = ["admin_views/templatetags/*", "admin_views/templates/admin/*", "admin_views/static/admin_views/icons/*"]
+"admin_views" = ["admin_views/templatetags/*", "admin_views/templates/admin/*", "admin_views/static/admin_views/icons/*"]
 
 [tool.bumpver]
 current_version = "1.0.3"
